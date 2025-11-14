@@ -3,8 +3,8 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main
-      
+      - main  # triggers deployment on pushes to main branch
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
