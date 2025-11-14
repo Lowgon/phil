@@ -1,0 +1,133 @@
+{
+    "id": "agential",
+    "title": "Agential Commitments",
+    "startNode": "Q1",
+    "nodes": {
+      "Q1": {
+        "question": "Do you ever act on purpose — that is, do you do things intentionally rather than just letting them happen?",
+        "options": [
+          { "label": "NO", "terminalId": "T1_Agential_Epiphenomenalist" },
+          { "label": "YES", "next": "Q2" }
+        ]
+      },
+      "Q2": {
+        "question": "When you act, do you feel you could have done something different?",
+        "options": [
+          { "label": "NO", "next": "Q2b" },
+          { "label": "YES", "next": "Q3" },
+          { "label": "NOT SURE", "next": "Q2a" }
+        ]
+      },
+      "Q2a": {
+        "question": "Is your uncertainty because the idea of ‘could have done differently’ doesn’t make sense, or because you’re unsure how causation works?",
+        "options": [
+          { "label": "DOESN’T MAKE SENSE", "next": "Q2b" },
+          { "label": "UNSURE ABOUT CAUSATION", "next": "Q3" }
+        ]
+      },
+      "Q2b": {
+        "question": "Even if you couldn’t have done otherwise, do you feel your actions reflect who you are — that you endorse the motives behind them?",
+        "options": [
+          { "label": "YES, I REFLECTIVELY IDENTIFY (endorse my motives as mine)", "terminalId": "T2_Agential_Hierarchical_Compatibilist" },
+          { "label": "YES, BUT ONLY FEEL UNCOERCED", "terminalId": "T3_Agential_Soft_Compatibilist" },
+          { "label": "NO / DOESN’T MATTER", "terminalId": "T4_Agential_Hard_Determinist" }
+        ]
+      },
+      "Q3": {
+        "question": "When you say you 'could have done differently,' do you mean truly free from all causes, or free only from outside pressure or control? Imagine rewinding to the exact same moment - same brain state, circumstances, everything. Could you have chosen differently?",
+        "options": [
+          { "label": "YES, I could have ", "next": "Q4" },
+          { "label": "NO, but it's still a real choice I made given those circumstances", "next": "Q5" },
+          { "label": "The rewind scenario is incoherent because agency is irreducibly temporal/creative", "next": "Q4" }
+        ]
+      },
+      "Q4": {
+        "question": "If you’re truly free from causal determination, what makes this possible?",
+        "options": [
+          { "label": "AN IMMATERIAL SOUL", "terminalId": "T5_Agential_Substance_Dualist" },
+          { "label": "CONSCIOUSNESS ITSELF HAS CAUSAL POWER", "terminalId": "T6_Agential_Agent_Causal_Libertarian", "optionalBridge": "Q5" },
+          { "label": "QUANTUM RANDOMNESS INTRODUCES OPENNESS", "terminalId": "T7_Agential_Indeterministic_Libertarian" },
+          { "label": "IRREDUCIBLE EMERGENCE AT PERSONAL LEVEL", "terminalId": "T8_Agential_Emergentist", "optionalBridge": "Q5" }
+        ]
+      },
+      "Q5": {
+        "question": "When you act, do you act for reasons?",
+        "options": [
+          { "label": "NO, JUST CAUSED BEHAVIORS", "terminalId": "T9_Agential_Behaviorist" },
+          { "label": "YES", "next": "Q6" }
+        ]
+      },
+      "Q6": {
+        "question": "When explaining your action, is the real explanation physical (brain/process) or based on reasons and meaning?",
+        "options": [
+          { "label": "ONLY PHYSICAL", "terminalId": "T10_Agential_Neurophysical_Reductionist" },
+          { "label": "BASED ON REASONS", "next": "Q7" },
+          { "label": "BOTH (physical processes express reasons)", "next": "Q7" }
+        ]
+      },
+      "Q7": {
+        "question": "If reasons explain action, where does their authority come from?",
+        "options": [
+          { "label": "REASONS HAVE FORCE ON THEIR OWN", "next": "Q8" },
+          { "label": "FORCE ONLY WHEN YOU RECOGNIZE THEM", "next": "Q8a" },
+          { "label": "NO INTRINSIC FORCE, JUST SOCIAL FUNCTION", "terminalId": "T11_Agential_Pragmatist_Reasons" }
+        ]
+      },
+      "Q8": {
+        "question": "Does this force apply to everyone, or only relative to each person or situation?",
+        "options": [
+          { "label": "UNIVERSAL (applies to all rational beings)", "next": "Q9" },
+          { "label": "RELATIVE (depends on person, culture, or context)", "next": "Q10" }
+        ]
+      },
+      "Q8a": {
+        "question": "If the authority depends on recognition, is it based on rational nature itself, or on mutual acknowledgment among people?",
+        "options": [
+          { "label": "RATIONAL NATURE ITSELF", "terminalId": "T12_Agential_Kantian_Constitutivist" },
+          { "label": "SOCIAL RECOGNITION", "terminalId": "T13_Agential_Hegelian_Recognition" }
+        ]
+      },
+      "Q9": {
+        "question": "What grounds this universal force of reason?",
+        "options": [
+          { "label": "MORAL FACTS / NATURAL LAW", "terminalId": "T14_Agential_Moral_Realist" },
+          { "label": "STRUCTURE OF PRACTICAL REASON", "terminalId": "T15_Agential_Kantian_Rationalist" },
+          { "label": "CATEGORICAL NORMATIVITY FROM AGENCY ITSELF", "terminalId": "T16_Agential_Constitutive_Kantian" }
+        ]
+      },
+      "Q10": {
+        "question": "If reasons are relative, what are they relative to?",
+        "options": [
+          { "label": "PERSONAL DESIRES / PROJECTS", "next": "Q11" },
+          { "label": "CULTURE", "terminalId": "T17_Agential_Cultural_Relativist" },
+          { "label": "LANGUAGE / CONCEPTS", "terminalId": "T18_Agential_Wittgensteinian_Conventionalist" },
+          { "label": "SOCIAL PRACTICES", "terminalId": "T19_Agential_Pragmatist_Norms" }
+        ]
+      },
+      "Q11": {
+        "question": "Are your personal reasons grounded in anything, or are they completely open?",
+        "options": [
+          { "label": "GROUNDED IN DESIRE / SELF-INTEREST", "terminalId": "T20_Agential_Humean_Instrumentalist" },
+          { "label": "GROUNDED IN POWER / WILL", "terminalId": "T21_Agential_Nietzschean_Perspectivalist" },
+          { "label": "COMPLETELY OPEN CHOICE", "terminalId": "T22_Agential_Existentialist" }
+        ]
+      },
+      "Q12": {
+        "question": "When you think about what’s right, are you discovering it, or creating it?",
+        "options": [
+          { "label": "DISCOVERING", "terminalId": "T23_Moral_Cognitivist_Realist" },
+          { "label": "CREATING", "terminalId": "T24_Constructivist" },
+          { "label": "NEITHER", "terminalId": "T25_Noncognitivist_Expressivist" }
+        ]
+      },
+      "Q13": {
+        "question": "Does acting well depend more on knowing what’s right, or on feeling/caring rightly?",
+        "options": [
+          { "label": "PRIMARILY KNOWING", "terminalId": "T26_Intellectualist" },
+          { "label": "PRIMARILY CARING", "terminalId": "T27_Sentimentalist" },
+          { "label": "BOTH TOGETHER", "terminalId": "T28_Virtue_Ethicist" }
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,133 @@
+{
+    "id": "experiential",
+    "title": "Experiential Commitments",
+    "startNode": "START",
+    "nodes": {
+      "START": {
+        "text": "Do you sense anything at all?",
+        "options": [
+          { "text": "NO", "terminalId": "T1_Experiential_Radical_Skeptic" },
+          { "text": "YES", "next": "Q2" }
+        ]
+      },
+      "Q2": {
+        "text": "Do you sense multiple distinct things, or just one undifferentiated experience?",
+        "options": [
+          { "text": "ONE", "next": "Q2a" },
+          { "text": "MULTIPLE", "next": "Q3" }
+        ]
+      },
+      "Q2a": {
+        "text": "Is this because everything truly feels unified, or because you haven’t distinguished the parts yet?",
+        "options": [
+          { "text": "TRULY UNIFIED", "terminalId": "T2_Experiential_Monist" },
+          { "text": "CAN'T DISTINGUISH", "next": "Q3" }
+        ]
+      },
+      "Q3": {
+        "text": "Do these distinct things recur — do you experience the same thing more than once?",
+        "options": [
+          { "text": "NO, ALL UNIQUE", "terminalId": "T3_Experiential_Heraclitean" },
+          { "text": "YES", "next": "Q4" }
+        ]
+      },
+      "Q4": {
+        "text": "When something recurs, is it the same thing persisting, or just another instance of the same kind?",
+        "options": [
+          { "text": "CAN'T TELL / QUESTION MEANINGLESS", "next": "Q5a" },
+          { "text": "SAME THING PERSISTING", "next": "Q6" },
+          { "text": "ANOTHER INSTANCE (same kind)", "next": "Q7" }
+        ]
+      },
+      "Q5a": {
+        "text": "Is there a fact you just can't access, or is the distinction itself confused?",
+        "options": [
+          { "text": "FACT I CAN'T ACCESS", "next": "Q5b" },
+          { "text": "DISTINCTION CONFUSED", "terminalId": "T4_Experiential_Bundle_Theorist" }
+        ]
+      },
+      "Q5b": {
+        "text": "Are you skeptical because of limits in observation, or because it’s unknowable in principle?",
+        "options": [
+          { "text": "OBSERVATIONAL LIMITS", "next": "Q6" },
+          { "text": "PRINCIPLELY UNKNOWABLE", "terminalId": "T5_Experiential_Phenomenalist" }
+        ]
+      },
+      "Q6": {
+        "text": "When you’re not sensing this persisting thing, do you believe it still exists?",
+        "options": [
+          { "text": "NO", "terminalId": "T6_Experiential_Strong_Phenomenalist" },
+          { "text": "YES", "next": "Q8" },
+          { "text": "UNSURE", "next": "Q6a" }
+        ]
+      },
+      "Q6a": {
+        "text": "Is your uncertainty because the question seems meaningless, or just hard to answer?",
+        "options": [
+          { "text": "MEANINGLESS", "terminalId": "T7_Experiential_Verificationist" },
+          { "text": "HARD TO ANSWER", "next": "Q8" }
+        ]
+      },
+      "Q7": {
+        "text": "These recurring ‘kinds’ — do you impose them through pattern recognition, or discover them in the world?",
+        "options": [
+          { "text": "IMPOSE / CONSTRUCT", "next": "Q7a" },
+          { "text": "DISCOVER", "next": "Q7b" }
+        ]
+      },
+      "Q7a": {
+        "text": "Are these patterns completely arbitrary, or constrained by something?",
+        "options": [
+          { "text": "ARBITRARY", "terminalId": "T9_Experiential_Radical_Conventionalist" },
+          { "text": "CONSTRAINED BY EXPERIENCE", "terminalId": "T8_Experiential_Kantian" }
+        ]
+      },
+      "Q7b": {
+        "text": "Does this recurring kind exist independently of the individual instances?",
+        "options": [
+          { "text": "YES, SEPARATELY", "terminalId": "T10_Experiential_Platonist" },
+          { "text": "YES, BUT IN THE INSTANCES", "terminalId": "T11_Experiential_Aristotelian_Realist" },
+          { "text": "NO", "terminalId": "T12_Experiential_Resemblance_Nominalist" }
+        ]
+      },
+      "Q8": {
+        "text": "Do these persisting things exist independently of your mind, or are they mind-dependent?",
+        "options": [
+          { "text": "MIND-DEPENDENT", "next": "Q9" },
+          { "text": "MIND-INDEPENDENT", "next": "Q10" },
+          { "text": "BOTH / INTERACTIVE", "terminalId": "T13_Experiential_Transcendental_Idealist" }
+        ]
+      },
+      "Q9": {
+        "text": "Are they dependent on your mind specifically, or on minds in general?",
+        "options": [
+          { "text": "MY MIND", "terminalId": "T14_Experiential_Solipsist" },
+          { "text": "MINDS IN GENERAL", "terminalId": "T15_Experiential_Idealist" },
+          { "text": "COLLECTIVE MINDS", "terminalId": "T16_Experiential_Social_Constructionist" }
+        ]
+      },
+      "Q10": {
+        "text": "Could you be systematically wrong about what these things are really like?",
+        "options": [
+          { "text": "NO, DIRECT ACCESS", "terminalId": "T17_Experiential_Direct_Naive_Realist" },
+          { "text": "YES, POSSIBLE", "next": "Q11" }
+        ]
+      },
+      "Q11": {
+        "text": "Do you perceive them as they really are, or only through appearances/representations?",
+        "options": [
+          { "text": "AS THEY ARE", "terminalId": "T18_Experiential_Direct_Realist" },
+          { "text": "THROUGH REPRESENTATIONS", "next": "Q12" }
+        ]
+      },
+      "Q12": {
+        "text": "Can we know what these things are like independent of our representations?",
+        "options": [
+          { "text": "YES", "terminalId": "T19_Experiential_Scientific_Realist" },
+          { "text": "NO", "terminalId": "T20_Experiential_Kantian_Thing_in_Itself" },
+          { "text": "QUESTION MEANINGLESS", "terminalId": "T21_Experiential_Pragmatist" }
+        ]
+      }
+    }
+  }
+  

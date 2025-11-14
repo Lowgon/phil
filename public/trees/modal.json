@@ -1,0 +1,156 @@
+{
+    "id": "modal",
+    "title": "Modal Commitments",
+    "startNode": "START",
+    "nodes": {
+      "START": {
+        "question": "Do you think things could have been different from how they are?",
+        "options": [
+          { "label": "NO, EVERYTHING NECESSARY", "terminalId": "T1_Modal_Necessitarian" },
+          { "label": "YES", "next": "Q2" },
+          { "label": "QUESTION IS CONFUSED", "next": "Q1a" }
+        ]
+      },
+      "Q1a": {
+        "question": "Is your confusion because possibility depends on our minds, or because 'possibility' has no objective meaning?",
+        "options": [
+          { "label": "MIND-DEPENDENT", "next": "Q1b" },
+          { "label": "NO OBJECTIVE MEANING", "terminalId": "T2_Modal_Eliminativist" }
+        ]
+      },
+      "Q1b": {
+        "question": "When you say mind-dependent, do you mean it depends on our particular concepts or on human cognition in general?",
+        "options": [
+          { "label": "CONCEPTS / SCHEMES", "terminalId": "T3_Modal_Conceptual_Idealist" },
+          { "label": "HUMAN COGNITION IN GENERAL", "terminalId": "T4_Modal_Transcendental_Idealist" }
+        ]
+      },
+      "Q2": {
+        "question": "When you say things 'could be otherwise,' what kind of possibility do you mean?",
+        "options": [
+          { "label": "LOGICAL (non-contradictory)", "next": "Q3" },
+          { "label": "CONCEPTUAL (within our frameworks of thought)", "next": "Q3b" },
+          { "label": "METAPHYSICAL (real alternative possibilities)", "next": "Q4" },
+          { "label": "PHYSICAL (consistent with natural laws)", "next": "Q5" },
+          { "label": "EPISTEMIC (compatible with what I know)", "next": "Q2b" }
+        ]
+      },
+      "Q2b": {
+        "question": "Is epistemic possibility all there is, or does it reflect something objective?",
+        "options": [
+          { "label": "ALL THERE IS", "terminalId": "T11_Modal_Epistemic_Reductionist" },
+          { "label": "REFLECTS SOMETHING REAL", "next": "Q4" }
+        ]
+      },
+      "Q3": {
+        "question": "Is logical necessity based on meanings and conventions, or something deeper?",
+        "options": [
+          { "label": "MEANINGS / CONVENTIONS", "terminalId": "T5_Modal_Conventionalist" },
+          { "label": "SOMETHING DEEPER", "next": "Q3a" }
+        ]
+      },
+      "Q3a": {
+        "question": "If deeper, is logical necessity grounded in mind-independent facts, the structure of thought, or grammar?",
+        "options": [
+          { "label": "MIND-INDEPENDENT FACTS", "terminalId": "T6_Modal_Platonist" },
+          { "label": "STRUCTURE OF THOUGHT", "terminalId": "T7_Modal_Kantian_Logic" },
+          { "label": "GRAMMAR / LANGUAGE", "terminalId": "T8_Modal_Wittgensteinian_Quietist" }
+        ]
+      },
+      "Q3b": {
+        "question": "Are conceptual necessities fixed, or can they change with shifts in our frameworks?",
+        "options": [
+          { "label": "FIXED BY FRAMEWORK", "terminalId": "T9_Modal_Conceptual_Relativist" },
+          { "label": "REVISABLE / ENGINEERABLE", "terminalId": "T10_Modal_Conceptual_Engineer" }
+        ]
+      },
+      "Q4": {
+        "question": "When imagining alternative possibilities, do they exist in some sense, or are they just mental representations?",
+        "options": [
+          { "label": "EXIST (another world/realm)", "next": "Q6" },
+          { "label": "MERELY REPRESENTATIONAL", "next": "Q7" },
+          { "label": "GROUNDED IN ACTUAL POWERS / POTENTIALS", "next": "Q8" }
+        ]
+      },
+      "Q5": {
+        "question": "Are the laws of nature necessary, or could they have been different?",
+        "options": [
+          { "label": "NECESSARY", "terminalId": "T1_Modal_Necessitarian" },
+          { "label": "COULD BE DIFFERENT", "next": "Q4" },
+          { "label": "CONTINGENT BUT REGULAR", "terminalId": "T11_Modal_Epistemic_Reductionist" }
+        ]
+      },
+      "Q6": {
+        "question": "Do alternative possibilities exist as concrete worlds or as abstract structures?",
+        "options": [
+          { "label": "CONCRETE WORLDS", "terminalId": "T12_Modal_Modal_Realist" },
+          { "label": "ABSTRACT STRUCTURES", "next": "Q6a" }
+        ]
+      },
+      "Q6a": {
+        "question": "What kind of abstract structures?",
+        "options": [
+          { "label": "MAXIMALLY CONSISTENT PROPOSITIONS", "terminalId": "T13_Modal_Linguistic_Ersatzist" },
+          { "label": "STATES OF AFFAIRS", "terminalId": "T14_Modal_Combinatorial_Theorist" },
+          { "label": "PRIMITIVE POSSIBILIA", "terminalId": "T15_Modal_Abstract_Modal_Realist" },
+          { "label": "FORMAL / CATEGORY MODELS", "terminalId": "T16_Modal_Structural_Modal_Realist" }
+        ]
+      },
+      "Q7": {
+        "question": "If possibilities are just mental representations, what determines which ones are valid?",
+        "options": [
+          { "label": "LOGICAL CONSISTENCY", "next": "Q3" },
+          { "label": "ESSENCE / NATURE OF THINGS", "next": "Q8" },
+          { "label": "CONCEPTUAL FRAMEWORK", "terminalId": "T9_Modal_Conceptual_Relativist" },
+          { "label": "PURE CONVENTION", "terminalId": "T17_Modal_Modal_Fictionalist" }
+        ]
+      },
+      "Q8": {
+        "question": "Are possibilities grounded in intrinsic powers of things, or in relations among them?",
+        "options": [
+          { "label": "INTRINSIC POWERS", "terminalId": "T18_Modal_Intrinsic_Dispositionalist" },
+          { "label": "RELATIONAL POWERS", "terminalId": "T19_Modal_Relational_Dispositionalist" },
+          { "label": "NO GROUNDING, NEED EXTERNAL", "next": "Q4" }
+        ]
+      },
+      "Q9": {
+        "question": "Could you have been significantly different (body, parents, life) and still be you?",
+        "options": [
+          { "label": "YES, WIDELY", "next": "Q10" },
+          { "label": "NO, ESSENCE CONSTRAINS", "next": "Q11" },
+          { "label": "UNCLEAR / VAGUE", "next": "Q9a" }
+        ]
+      },
+      "Q9a": {
+        "question": "Is this vagueness due to language or reality itself?",
+        "options": [
+          { "label": "LANGUAGE / SEMANTICS", "terminalId": "T20_Modal_Semantic_Anti_Essentialist" },
+          { "label": "REALITY / ONTOLOGY", "terminalId": "T21_Modal_Ontological_Anti_Essentialist" }
+        ]
+      },
+      "Q10": {
+        "question": "What makes a person the same across possibilities — continuity, origin, or bare identity?",
+        "options": [
+          { "label": "ORIGIN (same parents/body essential)", "terminalId": "T22_Modal_Origin_Essentialist" },
+          { "label": "CONTINUITY (psychological/physical)", "terminalId": "T23_Modal_Continuity_Theorist" },
+          { "label": "BARE IDENTITY (primitive thisness)", "terminalId": "T24_Modal_Haecceitist" }
+        ]
+      },
+      "Q11": {
+        "question": "Is your essence fixed by origin, intrinsic nature, or social/contextual relations?",
+        "options": [
+          { "label": "ORIGIN", "terminalId": "T25_Modal_Kripkean_Essentialist" },
+          { "label": "INTRINSIC NATURE", "terminalId": "T26_Modal_Aristotelian_Essentialist" },
+          { "label": "SOCIAL / CONTEXTUAL", "next": "Q11a" }
+        ]
+      },
+      "Q11a": {
+        "question": "Are social essences grounded in recognition, roles, or relational networks?",
+        "options": [
+          { "label": "RECOGNITION & ROLE", "terminalId": "T27_Modal_Social_Essentialist" },
+          { "label": "RELATIONAL NETWORKS", "terminalId": "T28_Modal_Relational_Essentialist" }
+        ]
+      }
+    }
+  }
+  

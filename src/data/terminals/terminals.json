@@ -1,0 +1,508 @@
+{
+    "T1_Agential_Epiphenomenalist": {
+      "label": "Epiphenomenalist",
+      "description": "<p>Mental events have no causal power; Huxley, Jackson.</p><p>This view holds that your thoughts, intentions, and feelings don’t actually cause your actions; instead, they are like byproducts of underlying physical or neural processes. In other words, you may feel like you’re acting intentionally, but according to this position, your mind is along for the ride rather than steering the behavior. Philosophers such as Thomas Huxley and Frank Jackson have explored this idea to question how much agency and mental causation we really possess.</p>",
+      "tree": "Agential Commitments"
+    },
+    "T2_Agential_Hierarchical_Compatibilist": {
+      "label": "Hierarchical Compatibilist",
+      "description": "Frankfurt, Watson — free when acting on desires one endorses.",
+      "tree": "Agential Commitments"
+    },
+    "T3_Agential_Soft_Compatibilist": {
+      "label": "Soft Compatibilist / Humean about Freedom",
+      "description": "Hume, Dennett — freedom as acting according to one’s own motives.",
+      "tree": "Agential Commitments"
+    },
+    "T4_Agential_Hard_Determinist": {
+      "label": "Hard Determinist",
+      "description": "Spinoza, d’Holbach — no freedom, just causal necessity.",
+      "tree": "Agential Commitments"
+    },
+    "T5_Agential_Substance_Dualist": {
+      "label": "Substance Dualist / Cartesian Agent",
+      "description": "Descartes, Swinburne — immaterial soul enables freedom.",
+      "tree": "Agential Commitments"
+    },
+    "T6_Agential_Agent_Causal_Libertarian": {
+      "label": "Agent-Causal Libertarian",
+      "description": "Reid, Chisholm, O’Connor — consciousness itself has causal power.",
+      "tree": "Agential Commitments"
+    },
+    "T7_Agential_Indeterministic_Libertarian": {
+      "label": "Indeterministic Libertarian",
+      "description": "Eccles, Kane — quantum randomness introduces openness in action.",
+      "tree": "Agential Commitments"
+    },
+    "T8_Agential_Emergentist": {
+      "label": "Emergentist about Agency",
+      "description": "Non-reductive physicalism; agency as creative advance - Bergson, Whitehead",
+      "tree": "Agential Commitments"
+    },
+    "T9_Agential_Behaviorist": {
+      "label": "Behaviorist",
+      "description": "Skinner, Ryle — actions are just caused behaviors, no genuine reasons.",
+      "tree": "Agential Commitments"
+    },
+    "T10_Agential_Neurophysical_Reductionist": {
+      "label": "Neurophysical Reductionist",
+      "description": "Churchlands — reasons are brain states, physical explanation only.",
+      "tree": "Agential Commitments"
+    },
+    "T11_Agential_Pragmatist_Reasons": {
+      "label": "Pragmatist about Reasons",
+      "description": "Dewey, Brandom — reasons are social function; no intrinsic force.",
+      "tree": "Agential Commitments"
+    },
+    "T12_Agential_Kantian_Constitutivist": {
+      "label": "Kantian Constitutivist",
+      "description": "Korsgaard — authority of reasons derives from rational nature itself.",
+      "tree": "Agential Commitments"
+    },
+    "T13_Agential_Hegelian_Recognition": {
+      "label": "Hegelian Recognition Theorist",
+      "description": "Hegel, contemporary recognition ethics — authority depends on social recognition.",
+      "tree": "Agential Commitments"
+    },
+    "T14_Agential_Moral_Realist": {
+      "label": "Moral Realist / Natural Law Theorist",
+      "description": "Aquinas, Foot, Parfit — moral facts or natural law ground universal reason.",
+      "tree": "Agential Commitments"
+    },
+    "T15_Agential_Kantian_Rationalist": {
+      "label": "Kantian Rationalist",
+      "description": "Kant, Korsgaard — structure of practical reason grounds universality.",
+      "tree": "Agential Commitments"
+    },
+    "T16_Agential_Constitutive_Kantian": {
+      "label": "Constitutive Kantian",
+      "description": "Korsgaard — categorical normativity emerges from agency itself.",
+      "tree": "Agential Commitments"
+    },
+    "T17_Agential_Cultural_Relativist": {
+      "label": "Cultural Relativist",
+      "description": "Boas, Benedict, Harman — reasons are relative to culture.",
+      "tree": "Agential Commitments"
+    },
+    "T18_Agential_Wittgensteinian_Conventionalist": {
+      "label": "Wittgensteinian Conventionalist",
+      "description": "Winch, Anscombe-influenced readings — reasons grounded in language/concepts.",
+      "tree": "Agential Commitments"
+    },
+    "T19_Agential_Pragmatist_Norms": {
+      "label": "Pragmatist about Norms",
+      "description": "Dewey, Brandom — reasons relative to social practices.",
+      "tree": "Agential Commitments"
+    },
+    "T20_Agential_Humean_Instrumentalist": {
+      "label": "Humean Instrumentalist",
+      "description": "Hume, Williams — personal reasons grounded in desire/self-interest.",
+      "tree": "Agential Commitments"
+    },
+    "T21_Agential_Nietzschean_Perspectivalist": {
+      "label": "Nietzschean Perspectivalist",
+      "description": "Nietzsche — personal reasons grounded in power/will.",
+      "tree": "Agential Commitments"
+    },
+    "T22_Agential_Existentialist": {
+      "label": "Existentialist",
+      "description": "Sartre, Beauvoir — personal reasons arise from completely open choice.",
+      "tree": "Agential Commitments"
+    },
+    "T23_Agential_Moral_Cognitivist": {
+      "label": "Moral Cognitivist / Realist",
+      "description": "Moore, Ross, Shafer-Landau — discovering moral truth.",
+      "tree": "Agential Commitments"
+    },
+    "T24_Agential_Constructivist": {
+      "label": "Constructivist",
+      "description": "Rawls, Scanlon — moral norms are created, not discovered.",
+      "tree": "Agential Commitments"
+    },
+    "T25_Agential_Noncognitivist": {
+      "label": "Noncognitivist / Expressivist",
+      "description": "Ayer, Blackburn, Gibbard — moral language expresses attitudes, not truth.",
+      "tree": "Agential Commitments"
+    },
+    "T26_Agential_Intellectualist": {
+      "label": "Intellectualist",
+      "description": "Socrates, Plato — acting well depends on knowing what is right.",
+      "tree": "Agential Commitments"
+    },
+    "T27_Agential_Sentimentalist": {
+      "label": "Sentimentalist",
+      "description": "Hume, Hutcheson, Slote — acting well depends on feeling/caring rightly.",
+      "tree": "Agential Commitments"
+    },
+    "T28_Agential_Virtue_Ethicist": {
+      "label": "Virtue Ethicist",
+      "description": "Aristotle, MacIntyre, Foot — acting well requires both knowledge and caring.",
+      "tree": "Agential Commitments"
+    },
+    "T1_Normative_Nihilist": {
+      "label": "Normative Nihilist",
+      "description": "Denies that 'should' makes sense; moral or evaluative talk is empty.",
+      "tree": "Normative Commitments"
+    },
+    "T2_Normative_Reasons_Fundamentalist": {
+      "label": "Reasons Fundamentalist",
+      "description": "Parfit, Scanlon — rationality is objective, morality constructed.",
+      "tree": "Normative Commitments"
+    },
+    "T3_Normative_Aesthetic_Realist": {
+      "label": "Aesthetic Realist / Moral Anti-Realist",
+      "description": "Evaluative judgments in aesthetic domain have real content, moral judgments may not.",
+      "tree": "Normative Commitments"
+    },
+    "T4_Normative_Normative_Contextualist": {
+      "label": "Normative Contextualist",
+      "description": "Dancy, particularists — norms are real but content depends on situation and practice.",
+      "tree": "Normative Commitments"
+    },
+    "T5_Normative_Hybrid_Expressivist": {
+      "label": "Hybrid Expressivist",
+      "description": "Ridge — expressions answer to normative facts.",
+      "tree": "Normative Commitments"
+    },
+    "T6_Normative_Quasi_Realist": {
+      "label": "Quasi-Realist",
+      "description": "Blackburn — norms gain truth through internal consistency/coherence.",
+      "tree": "Normative Commitments"
+    },
+    "T7_Normative_Functionalist_Expressivist": {
+      "label": "Functionalist Expressivist",
+      "description": "Gibbard — norms coordinate social life; appropriateness comes from social function.",
+      "tree": "Normative Commitments"
+    },
+    "T8_Normative_Kantian_Expressivist": {
+      "label": "Kantian Expressivist / Constructivist",
+      "description": "Normative attitudes are constrained by rational principles.",
+      "tree": "Normative Commitments"
+    },
+    "T9_Normative_Emotivist": {
+      "label": "Emotivist",
+      "description": "Ayer, Stevenson — moral language is pure expression of emotion.",
+      "tree": "Normative Commitments"
+    },
+    "T10_Normative_Desire_Satisfaction_Theorist": {
+      "label": "Desire-Satisfaction Theorist",
+      "description": "Ideal desire theories — norms grounded in desires or preferences.",
+      "tree": "Normative Commitments"
+    },
+    "T11_Normative_Utilitarian_Welfarist": {
+      "label": "Utilitarian / Welfarist",
+      "description": "Bentham, Mill, Singer — norms grounded in pleasure or well-being.",
+      "tree": "Normative Commitments"
+    },
+    "T12_Normative_Naturalistic_Virtue_Ethicist": {
+      "label": "Naturalistic Virtue Ethicist",
+      "description": "Foot, Hursthouse — norms grounded in flourishing or functional completion.",
+      "tree": "Normative Commitments"
+    },
+    "T13_Normative_Evolutionary_Naturalist": {
+      "label": "Evolutionary Naturalist / Debunker",
+      "description": "Street, Joyce — evolved dispositions explain normative facts.",
+      "tree": "Normative Commitments"
+    },
+    "T14_Normative_Intuitionist": {
+      "label": "Intuitionist",
+      "description": "Moore, Ross, Audi — direct apprehension of sui generis normative facts.",
+      "tree": "Normative Commitments"
+    },
+    "T15_Normative_Rationalist_Moral_Realist": {
+      "label": "Rationalist Moral Realist",
+      "description": "Kant, Sidgwick, Parfit — normative truths known via reason and reflection.",
+      "tree": "Normative Commitments"
+    },
+    "T16_Normative_Perceptual_Moral_Realist": {
+      "label": "Perceptual Moral Realist",
+      "description": "McDowell, Dancy — moral perception through trained sensitivity.",
+      "tree": "Normative Commitments"
+    },
+    "T17_Normative_Kantian_Constructivist": {
+      "label": "Kantian Constructivist",
+      "description": "Rawls, Korsgaard, Scanlon — framework valid via rational coherence.",
+      "tree": "Normative Commitments"
+    },
+    "T18_Normative_Contractualist": {
+      "label": "Contractualist",
+      "description": "Scanlon, Gauthier — framework validated by social agreement and mutual advantage.",
+      "tree": "Normative Commitments"
+    },
+    "T19_Normative_Pragmatist_Normativity": {
+      "label": "Pragmatist about Normativity",
+      "description": "Dewey, Rorty — practical success and adaptive value justify norms.",
+      "tree": "Normative Commitments"
+    },
+    "T20_Normative_Normative_Subjectivist": {
+      "label": "Normative Subjectivist",
+      "description": "Pure relativism; no framework gives objective validity.",
+      "tree": "Normative Commitments"
+    },
+    "T21_Normative_Humean_Internalist": {
+      "label": "Humean Internalist",
+      "description": "Williams — obligation motivates only if it aligns with agent’s desires.",
+      "tree": "Normative Commitments"
+    },
+    "T22_Normative_Kantian_Internalist": {
+      "label": "Kantian Internalist",
+      "description": "Rational agents are necessarily motivated by moral law.",
+      "tree": "Normative Commitments"
+    },
+    "T23_Normative_Theistic_Moral_Realist": {
+      "label": "Theistic Moral Realist",
+      "description": "Obligation grounded in divine command.",
+      "tree": "Normative Commitments"
+    },
+    "T24_Normative_Aristotelian_Thomist_Externalist": {
+      "label": "Aristotelian / Thomist Externalist",
+      "description": "Aquinas — obligation grounded in natural law.",
+      "tree": "Normative Commitments"
+    },
+    "T25_Normative_Non_Naturalist_Realist": {
+      "label": "Non-Naturalist Realist",
+      "description": "Parfit, Shafer-Landau — norms exist independently of motivation.",
+      "tree": "Normative Commitments"
+    },
+    "T1_Modal_Necessitarian": {
+      "label": "Necessitarian",
+      "description": "Spinoza, Leibniz — only this world is possible; everything necessary.",
+      "tree": "Modal Commitments"
+    },
+    "T2_Modal_Eliminativist": {
+      "label": "Modal Eliminativist",
+      "description": "Quine — modality is dubious metaphysics; no objective possibility.",
+      "tree": "Modal Commitments"
+    },
+    "T3_Modal_Conceptual_Idealist": {
+      "label": "Conceptual Idealist about Modality",
+      "description": "Modal structure arises from linguistic-conceptual frameworks.",
+      "tree": "Modal Commitments"
+    },
+    "T4_Modal_Transcendental_Idealist": {
+      "label": "Transcendental Idealist about Modality",
+      "description": "Kant — modality is a category of understanding.",
+      "tree": "Modal Commitments"
+    },
+    "T5_Modal_Conventionalist": {
+      "label": "Conventionalist about Logic",
+      "description": "Carnap, Ayer — logical truths are analytic, based on meanings and conventions.",
+      "tree": "Modal Commitments"
+    },
+    "T6_Modal_Platonist": {
+      "label": "Platonist about Logic",
+      "description": "Frege, Gödel — logical forms are mind-independent facts.",
+      "tree": "Modal Commitments"
+    },
+    "T7_Modal_Kantian_Logic": {
+      "label": "Kantian about Logic",
+      "description": "Necessity arises from the structure of thought.",
+      "tree": "Modal Commitments"
+    },
+    "T8_Modal_Wittgensteinian_Quietist": {
+      "label": "Wittgensteinian Quietist",
+      "description": "Necessity dissolves into grammar / language.",
+      "tree": "Modal Commitments"
+    },
+    "T9_Modal_Conceptual_Relativist": {
+      "label": "Conceptual Relativist",
+      "description": "Conceptual necessities can be fixed by frameworks or revisable/engineerable.",
+      "tree": "Modal Commitments"
+    },
+    "T10_Modal_Conceptual_Engineer": {
+      "label": "Conceptual Engineer",
+      "description": "Modal norms can be deliberately reformed within conceptual frameworks.",
+      "tree": "Modal Commitments"
+    },
+    "T11_Modal_Epistemic_Reductionist": {
+      "label": "Epistemic Modal Reductionist",
+      "description": "Possibility = ignorance; all possibilities are epistemic.",
+      "tree": "Modal Commitments"
+    },
+    "T12_Modal_Modal_Realist": {
+      "label": "Modal Realist",
+      "description": "David Lewis — alternative possibilities exist as concrete worlds.",
+      "tree": "Modal Commitments"
+    },
+    "T13_Modal_Linguistic_Ersatzist": {
+      "label": "Linguistic Ersatzist",
+      "description": "Adams, Plantinga — abstract possibilities as maximally consistent propositions.",
+      "tree": "Modal Commitments"
+    },
+    "T14_Modal_Combinatorial_Theorist": {
+      "label": "Combinatorial Theorist",
+      "description": "Armstrong, Forrest — abstract possibilities as states of affairs.",
+      "tree": "Modal Commitments"
+    },
+    "T15_Modal_Abstract_Modal_Realist": {
+      "label": "Abstract Modal Realist",
+      "description": "Plantinga — primitive possibilia exist as abstract entities.",
+      "tree": "Modal Commitments"
+    },
+    "T16_Modal_Structural_Modal_Realist": {
+      "label": "Structural Modal Realist",
+      "description": "Formal/category models of alternative possibilities.",
+      "tree": "Modal Commitments"
+    },
+    "T17_Modal_Modal_Fictionalist": {
+      "label": "Modal Fictionalist",
+      "description": "Rosen — modality treated as useful fiction.",
+      "tree": "Modal Commitments"
+    },
+    "T18_Modal_Intrinsic_Dispositionalist": {
+      "label": "Intrinsic Dispositionalist",
+      "description": "Molnar, Mumford — possibilities grounded in intrinsic powers of things.",
+      "tree": "Modal Commitments"
+    },
+    "T19_Modal_Relational_Dispositionalist": {
+      "label": "Relational Dispositionalist",
+      "description": "Cartwright, Heil — possibilities grounded in relations among things.",
+      "tree": "Modal Commitments"
+    },
+    "T20_Modal_Semantic_Anti_Essentialist": {
+      "label": "Semantic Anti-Essentialist",
+      "description": "Vagueness in essence due to language/semantics.",
+      "tree": "Modal Commitments"
+    },
+    "T21_Modal_Ontological_Anti_Essentialist": {
+      "label": "Ontological Anti-Essentialist",
+      "description": "Vagueness in essence due to reality/ontology itself.",
+      "tree": "Modal Commitments"
+    },
+    "T22_Modal_Origin_Essentialist": {
+      "label": "Origin Essentialist",
+      "description": "Identity across possibilities grounded in same parents/body.",
+      "tree": "Modal Commitments"
+    },
+    "T23_Modal_Continuity_Theorist": {
+      "label": "Continuity Theorist",
+      "description": "Identity across possibilities grounded in psychological/physical continuity.",
+      "tree": "Modal Commitments"
+    },
+    "T24_Modal_Haecceitist": {
+      "label": "Haecceitist",
+      "description": "Identity across possibilities grounded in primitive thisness.",
+      "tree": "Modal Commitments"
+    },
+    "T25_Modal_Kripkean_Essentialist": {
+      "label": "Kripkean Essentialist",
+      "description": "Essence fixed by origin (parents/body).",
+      "tree": "Modal Commitments"
+    },
+    "T26_Modal_Aristotelian_Essentialist": {
+      "label": "Aristotelian Essentialist",
+      "description": "Essence fixed by intrinsic nature.",
+      "tree": "Modal Commitments"
+    },
+    "T27_Modal_Social_Essentialist": {
+      "label": "Social Essentialist",
+      "description": "Social essences grounded in recognition and roles.",
+      "tree": "Modal Commitments"
+    },
+    "T28_Modal_Relational_Essentialist": {
+      "label": "Relational Essentialist",
+      "description": "Social essences grounded in relational networks.",
+      "tree": "Modal Commitments"
+    },
+    "T1_Experiential_Radical_Skeptic": {
+      "label": "Radical Skeptic / Solipsist of the Present Moment",
+      "description": "Doubts even immediate experience; no sensation is trusted.",
+      "tree": "Experiential Commitments"
+    },
+    "T2_Experiential_Monist": {
+      "label": "Monist",
+      "description": "Reality is fundamentally one; all experience unified. (Parmenides, Spinoza)",
+      "tree": "Experiential Commitments"
+    },
+    "T3_Experiential_Heraclitean": {
+      "label": "Heraclitean",
+      "description": "Pure flux; all things unique and constantly changing.",
+      "tree": "Experiential Commitments"
+    },
+    "T4_Experiential_Bundle_Theorist": {
+      "label": "Bundle Theorist",
+      "description": "Objects are just bundles of properties; distinctions may be confused. (Hume)",
+      "tree": "Experiential Commitments"
+    },
+    "T5_Experiential_Phenomenalist": {
+      "label": "Phenomenalist",
+      "description": "Principally unknowable; reality apprehended through perception. (Berkeley, early Carnap)",
+      "tree": "Experiential Commitments"
+    },
+    "T6_Experiential_Strong_Phenomenalist": {
+      "label": "Strong Phenomenalist",
+      "description": "Belief that things only exist when perceived (esse est percipi).",
+      "tree": "Experiential Commitments"
+    },
+    "T7_Experiential_Verificationist": {
+      "label": "Verificationist / Logical Positivist",
+      "description": "Claims that are meaningless if not empirically verifiable.",
+      "tree": "Experiential Commitments"
+    },
+    "T8_Experiential_Kantian": {
+      "label": "Kantian",
+      "description": "Patterns or recurring kinds constrained by categories structuring experience.",
+      "tree": "Experiential Commitments"
+    },
+    "T9_Experiential_Radical_Conventionalist": {
+      "label": "Radical Conventionalist / Nominalist",
+      "description": "Recurring patterns are arbitrary, imposed by the mind.",
+      "tree": "Experiential Commitments"
+    },
+    "T10_Experiential_Platonist": {
+      "label": "Platonist about Universals",
+      "description": "Recurring kinds exist independently of individual instances.",
+      "tree": "Experiential Commitments"
+    },
+    "T11_Experiential_Aristotelian_Realist": {
+      "label": "Aristotelian Realist",
+      "description": "Recurring kinds exist within individual instances.",
+      "tree": "Experiential Commitments"
+    },
+    "T12_Experiential_Resemblance_Nominalist": {
+      "label": "Resemblance Nominalist",
+      "description": "Recurring kinds do not exist independently; objects just resemble each other.",
+      "tree": "Experiential Commitments"
+    },
+    "T13_Experiential_Transcendental_Idealist": {
+      "label": "Transcendental Idealist",
+      "description": "Persists things exist interactively with the mind. (Kant)",
+      "tree": "Experiential Commitments"
+    },
+    "T14_Experiential_Solipsist": {
+      "label": "Solipsist",
+      "description": "Persistent things dependent on my mind alone.",
+      "tree": "Experiential Commitments"
+    },
+    "T15_Experiential_Idealist": {
+      "label": "Idealist",
+      "description": "Persistent things dependent on minds in general. (Berkeley, Hegel)",
+      "tree": "Experiential Commitments"
+    },
+    "T16_Experiential_Social_Constructionist": {
+      "label": "Social Constructionist",
+      "description": "Persistent things dependent on collective minds or social frameworks.",
+      "tree": "Experiential Commitments"
+    },
+    "T17_Experiential_Direct_Naive_Realist": {
+      "label": "Direct / Naive Realist",
+      "description": "Belief in direct access to persisting things; no mediation by representations.",
+      "tree": "Experiential Commitments"
+    },
+    "T18_Experiential_Direct_Realist": {
+      "label": "Direct Realist",
+      "description": "Perception as it really is, unmediated by representation.",
+      "tree": "Experiential Commitments"
+    },
+    "T19_Experiential_Scientific_Realist": {
+      "label": "Scientific / Critical Realist",
+      "description": "Knowledge of things independent of representations is possible.",
+      "tree": "Experiential Commitments"
+    },
+    "T20_Experiential_Kantian_Thing_in_Itself": {
+      "label": "Kantian — things-in-themselves unknowable",
+      "description": "Reality exists beyond appearances but is inaccessible.",
+      "tree": "Experiential Commitments"
+    }
+  }
+  
