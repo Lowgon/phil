@@ -12,7 +12,7 @@ const TreeNavigator = ({ treeId }) => {
     async function loadTree() {
       try {
         setLoading(true);
-        const response = await fetch(`/trees/${treeId}.json`);
+        const response = await fetch(`${process.env.PUBLIC_URL}/trees/${treeId}.json`);
         const data = await response.json();
 
         // normalize old vs new JSON
