@@ -503,6 +503,11 @@
       "label": "Kantian — things-in-themselves unknowable",
       "description": "Reality exists beyond appearances but is inaccessible.",
       "tree": "Experiential Commitments"
+    },
+    "T21_Experiential_Pragmatist": {
+      "label": "Pragmatist",
+      "description": "Focuses on what works in experience rather than what is ultimately real; truth is understood in terms of practical consequences.",
+      "tree": "Experiential Commitments"
     }
   }
   
