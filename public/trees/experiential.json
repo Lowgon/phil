@@ -6,7 +6,7 @@
     "START": {
       "question": "Do you think there is anything you are experiencing at this very moment, or is that uncertain?",
       "options": [
-        { "label": "I don’t think there is anything real to experience", "terminalId": "T1_Radical_Skeptic_Solipsist" },
+        { "label": "I don’t think there is anything real to experience", "terminalId": "T1_Experiential_Radical_Skeptic" },
         { "label": "Yes, I am experiencing something", "next": "Q2" }
       ]
     },
@@ -14,118 +14,117 @@
       "question": "Right now, does what you experience feel like one continuous, unified whole, or like many separate things?",
       "options": [
         { "label": "Feels like one seamless whole", "next": "Q2a" },
-        { "label": "Notice many distinct things", "next": "Q3" }
+        { "label": "I notice many distinct things", "next": "Q3" }
       ]
     },
     "Q2a": {
       "question": "Is this because everything genuinely feels unified, or because you can’t distinguish parts yet?",
       "options": [
-        { "label": "Genuinely unified", "terminalId": "T2_Monist" },
-        { "label": "Can’t distinguish", "next": "Q3" }
+        { "label": "It genuinely feels unified", "terminalId": "T2_Experiential_Monist" },
+        { "label": "I just can’t distinguish the parts yet", "next": "Q3" }
       ]
     },
     "Q3": {
       "question": "Do some things happen or appear again, or is everything always completely new?",
       "options": [
-        { "label": "Everything is always completely new", "terminalId": "T3_Heraclitean" },
+        { "label": "Everything always feels completely new", "terminalId": "T3_Experiential_Heraclitean" },
         { "label": "Some things happen or appear again", "next": "Q4" }
       ]
     },
     "Q4": {
       "question": "When things seem to repeat, do any persist as the same individual, are they recurring instances of a kind, or is it impossible to tell?",
       "options": [
-        { "label": "Impossible to tell", "next": "Q5a" },
-        { "label": "Same individual persisting", "next": "Q6" },
+        { "label": "It’s impossible to tell", "next": "Q5a" },
+        { "label": "The same individual persists", "next": "Q6" },
         { "label": "Recurring instance of a kind", "next": "Q7" }
       ]
     },
     "Q5a": {
       "question": "Do repeating things have a fact of the matter about their identity, or is the distinction confused or meaningless?",
       "options": [
-        { "label": "There is a fact but inaccessible", "next": "Q5b" },
-        { "label": "Distinction is confused or meaningless", "terminalId": "T4_Bundle_Theorist" }
+        { "label": "There is a fact but it’s inaccessible", "next": "Q5b" },
+        { "label": "The distinction itself is confused or meaningless", "terminalId": "T4_Experiential_Bundle_Theorist" }
       ]
     },
     "Q5b": {
-      "question": "Is the inability to tell due to perception limits or impossible in principle?",
+      "question": "Is your inability to tell due to perceptual limits, or because it’s impossible in principle?",
       "options": [
-        { "label": "Limits of perception/attention", "next": "Q6" },
-        { "label": "Impossible to know in principle", "terminalId": "T5_Phenomenalist" }
+        { "label": "Limits of perception or attention", "next": "Q6" },
+        { "label": "Impossible to know in principle", "terminalId": "T5_Experiential_Phenomenalist" }
       ]
     },
     "Q6": {
-      "question": "Do things persist when not observed, or only exist while noticed?",
+      "question": "Do things persist when not observed, or do they exist only while being noticed?",
       "options": [
-        { "label": "Exist only while noticed", "terminalId": "T6_Strong_Phenomenalist" },
-        { "label": "Keep existing when unobserved", "next": "Q8" },
-        { "label": "Uncertain", "next": "Q6a" }
+        { "label": "They exist only while noticed", "terminalId": "T6_Experiential_Strong_Phenomenalist" },
+        { "label": "They keep existing when unobserved", "next": "Q8" },
+        { "label": "I'm uncertain", "next": "Q6a" }
       ]
     },
     "Q6a": {
-      "question": "Is uncertainty about persistence due to conceptual confusion or genuine difficulty?",
+      "question": "Is your uncertainty due to conceptual confusion, or because the issue is genuinely difficult?",
       "options": [
-        { "label": "Conceptual confusion", "terminalId": "T7_Verificationist" },
-        { "label": "Genuinely difficult", "next": "Q8" }
+        { "label": "Conceptual confusion", "terminalId": "T7_Experiential_Verificationist" },
+        { "label": "Genuine difficulty", "next": "Q8" }
       ]
     },
     "Q7": {
-      "question": "Are recurring patterns imposed by the mind, or exist independently?",
+      "question": "Are recurring patterns imposed by the mind or do they exist independently of us?",
       "options": [
-        { "label": "Imposed by mind", "next": "Q7a" },
-        { "label": "Exist independently", "next": "Q7b" }
+        { "label": "Imposed by the mind", "next": "Q7a" },
+        { "label": "Exist independently of us", "next": "Q7b" }
       ]
     },
     "Q7a": {
-      "question": "Are patterns arbitrary, or shaped by experience?",
+      "question": "Are these mental patterns arbitrary, or are they shaped or constrained by how experience works?",
       "options": [
-        { "label": "Completely arbitrary", "terminalId": "T8_Radical_Conventionalist" },
-        { "label": "Shaped or limited by experience", "terminalId": "T9_Kantian_Categories" }
+        { "label": "Completely arbitrary (we impose them)", "terminalId": "T9_Experiential_Radical_Conventionalist" },
+        { "label": "Shaped or constrained by experience", "terminalId": "T8_Experiential_Kantian" }
       ]
     },
     "Q7b": {
       "question": "If kinds exist independently, do they exist apart from instances, only in instances, or not at all?",
       "options": [
-        { "label": "Exist separately from instances", "terminalId": "T10_Platonist_Universals" },
-        { "label": "Exist only within instances", "terminalId": "T11_Aristotelian_Realist" },
-        { "label": "Do not exist as real kinds", "terminalId": "T12_Resemblance_Nominalist" }
+        { "label": "Exist separately from instances", "terminalId": "T10_Experiential_Platonist" },
+        { "label": "Exist only within instances", "terminalId": "T11_Experiential_Aristotelian_Realist" },
+        { "label": "Kinds don’t exist; only resemblance does", "terminalId": "T12_Experiential_Resemblance_Nominalist" }
       ]
     },
     "Q8": {
-      "question": "Do persisting things exist only because minds perceive, independently of minds, or depend on both?",
+      "question": "Do persisting things exist only because minds perceive them, independently of minds, or through an interaction of both?",
       "options": [
-        { "label": "Exist only because minds perceive", "next": "Q9" },
+        { "label": "Exist only because minds perceive them", "next": "Q9" },
         { "label": "Exist independently of minds", "next": "Q10" },
-        { "label": "Depend on both minds and reality", "terminalId": "T13_Transcendental_Idealist" }
+        { "label": "Depend on both mind and reality", "terminalId": "T13_Experiential_Transcendental_Idealist" }
       ]
     },
     "Q9": {
-      "question": "Do mind-dependent things rely on my own mind, minds in general, or collective/social minds?",
+      "question": "If things depend on minds, do they depend on your own mind, minds in general, or collective/social minds?",
       "options": [
-        { "label": "My own mind alone", "terminalId": "T14_Solipsist" },
-        { "label": "Minds in general", "terminalId": "T15_Idealist" },
-        { "label": "Collective/social minds", "terminalId": "T16_Social_Constructionist" }
+        { "label": "My own mind alone", "terminalId": "T14_Experiential_Solipsist" },
+        { "label": "Minds in general", "terminalId": "T15_Experiential_Idealist" },
+        { "label": "Collective or social minds", "terminalId": "T16_Experiential_Social_Constructionist" }
       ]
     },
     "Q10": {
-      "question": "Do you perceive mind-independent things exactly, or could perception misrepresent them?",
+      "question": "Do you perceive mind-independent things exactly as they are, or could perception misrepresent them?",
       "options": [
-        { "label": "Perceive exactly", "terminalId": "T17_Direct_Naive_Realist" },
-        { "label": "Perception could misrepresent", "next": "Q11" }
+        { "label": "Perceive them exactly as they are", "terminalId": "T17_Experiential_Direct_Naive_Realist" },
+        { "label": "Perception could misrepresent reality", "next": "Q11" }
       ]
     },
     "Q11": {
-      "question": "Do mind-independent things appear as they are, or only through how they appear?",
+      "question": "Do mind-independent things appear as they truly are, or only as they appear through perception?",
       "options": [
-        { "label": "Perceive directly", "terminalId": "T18_Direct_Realist" },
-        { "label": "Perceive only through appearances", "next": "Q12" }
+        { "label": "Appear as they truly are", "terminalId": "T18_Experiential_Direct_Realist" },
+        { "label": "Only through appearances", "next": "Q12" }
       ]
     },
     "Q12": {
-      "question": "Do appearances give access to reality, is reality beyond reach, or is the question meaningless?",
+      "question": "Do appearances give real access to things, is reality ultimately beyond reach, or is the question itself misguided?",
       "options": [
-        { "label": "Appearances give access", "terminalId": "T19_Scientific_Critical_Realist" },
-        { "label": "Reality beyond reach", "terminalId": "T20_Kantian_Thing_in_Itself" },
-        { "label": "Question not meaningful", "terminalId": "T21_Pragmatist" }
+        { "label": "Appearances give genuine access to reality", "terminalId": "T19_Experiential_Scientific_Realist" },
+        { "label": "Reality exists beyond appearances but is unknowable", "terminalId": "T20_Experiential_Kantian_Thing_in_Itself" }
       ]
     }
   }
