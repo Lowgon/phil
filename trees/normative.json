@@ -1,0 +1,130 @@
+{
+    "id": "normative",
+    "title": "Normative Commitments",
+    "startNode": "Q1",
+    "nodes": {
+      "Q1": {
+        "text": "Do you ever think some things should be a certain way, or that some things could be better or worse?",
+        "options": [
+          { "text": "NO", "terminalId": "T1_Normative_Nihilist" },
+          { "text": "YES", "next": "Q2" }
+        ]
+      },
+      "Q2": {
+        "text": "When you say something ‘should’ be different, are you stating a fact, expressing a feeling or attitude, or a bit of both depending on context?",
+        "options": [
+          { "text": "STATING A FACT", "next": "Q3" },
+          { "text": "EXPRESSING AN ATTITUDE", "next": "Q4" },
+          { "text": "BOTH / CONTEXT DEPENDS", "next": "Q2a" }
+        ]
+      },
+      "Q2a": {
+        "text": "Do you think moral, practical (prudential), and aesthetic judgments all have the same kind of status?",
+        "options": [
+          { "text": "YES, THEY’RE ALL THE SAME", "next": "Q2a1" },
+          { "text": "NO, SOME ARE FACTUAL, SOME EXPRESSIVE", "next": "Q2b" }
+        ]
+      },
+      "Q2a1": {
+        "text": "Are they all factual or all expressive?",
+        "options": [
+          { "text": "ALL FACTUAL", "next": "Q3" },
+          { "text": "ALL EXPRESSIVE", "next": "Q4" }
+        ]
+      },
+      "Q2b": {
+        "text": "Which type of judgment counts as factual?",
+        "options": [
+          { "text": "MORAL", "next": "Q3" },
+          { "text": "PRACTICAL / RATIONAL", "terminalId": "T2_Normative_Reasons_Fundamentalist" },
+          { "text": "AESTHETIC", "terminalId": "T3_Normative_Aesthetic_Realist" }
+        ]
+      },
+      "Q3": {
+        "text": "If normative facts are real, what kind of things are they made of?",
+        "options": [
+          { "text": "NATURAL FACTS (things like psychology or biology)", "next": "Q5" },
+          { "text": "SUI GENERIS (unique, irreducible norms)", "next": "Q6" },
+          { "text": "DEPEND ON A FRAMEWORK", "next": "Q3a" }
+        ]
+      },
+      "Q3a": {
+        "text": "If they depend on a framework, is it because the framework creates the norms, or because norms exist but vary by context?",
+        "options": [
+          { "text": "FRAMEWORK CREATES THE NORMS (constructivism)", "next": "Q7" },
+          { "text": "NORMS EXIST BUT VARY (contextualism)", "terminalId": "T4_Normative_Contextualist" }
+        ]
+      },
+      "Q4": {
+        "text": "If using normative language expresses attitudes, does it still aim to be true?",
+        "options": [
+          { "text": "YES", "next": "Q4a" },
+          { "text": "NO", "next": "Q4b" }
+        ]
+      },
+      "Q4a": {
+        "text": "What makes these attitude-expressions able to be true?",
+        "options": [
+          { "text": "THEY CORRESPOND TO OBJECTIVE FACTS", "terminalId": "T5_Normative_Hybrid_Expressivist" },
+          { "text": "TRUTH IS EARNED BY INTERNAL CONSISTENCY", "terminalId": "T6_Normative_Quasi_Realist" }
+        ]
+      },
+      "Q4b": {
+        "text": "If not truth-apt, what makes an attitude appropriate or valid?",
+        "options": [
+          { "text": "SOCIAL FUNCTION", "terminalId": "T7_Normative_Functionalist_Expressivist" },
+          { "text": "RATIONAL CONSTRAINT", "terminalId": "T8_Normative_Kantian_Expressivist" },
+          { "text": "PURE EMOTION", "terminalId": "T9_Normative_Emotivist" }
+        ]
+      },
+      "Q5": {
+        "text": "If natural facts ground norms, which kind?",
+        "options": [
+          { "text": "DESIRES OR PREFERENCES", "terminalId": "T10_Normative_Desire_Satisfaction" },
+          { "text": "PLEASURE OR WELL-BEING", "terminalId": "T11_Normative_Utilitarian_Welfarist" },
+          { "text": "FLOURISHING / FUNCTIONAL COMPLETION", "terminalId": "T12_Normative_Naturalistic_Virtue" },
+          { "text": "EVOLUTIONARY STABILITY OR FITNESS", "terminalId": "T13_Normative_Evolutionary_Naturalist" }
+        ]
+      },
+      "Q6": {
+        "text": "If normative facts are sui generis (unique), how do we know them?",
+        "options": [
+          { "text": "BY INTUITION", "terminalId": "T14_Normative_Intuitionist" },
+          { "text": "BY REASON / REFLECTION", "terminalId": "T15_Normative_Rationalist_Moral_Realist" },
+          { "text": "BY MORAL PERCEPTION", "terminalId": "T16_Normative_Perceptual_Moral_Realist" }
+        ]
+      },
+      "Q7": {
+        "text": "If norms depend on frameworks, what makes a framework valid?",
+        "options": [
+          { "text": "RATIONAL COHERENCE", "terminalId": "T17_Normative_Kantian_Constructivist" },
+          { "text": "SOCIAL AGREEMENT / MUTUAL ADVANTAGE", "terminalId": "T18_Normative_Contractualist" },
+          { "text": "PRACTICAL SUCCESS / ADAPTIVE VALUE", "terminalId": "T19_Normative_Pragmatist" },
+          { "text": "NONE (pure relativism)", "terminalId": "T20_Normative_Subjectivist" }
+        ]
+      },
+      "Q8": {
+        "text": "Does what is right automatically motivate you?",
+        "options": [
+          { "text": "YES", "next": "Q9" },
+          { "text": "NO", "next": "Q10" }
+        ]
+      },
+      "Q9": {
+        "text": "What kind of motivation connects obligation to action?",
+        "options": [
+          { "text": "BASED ON DESIRE", "terminalId": "T21_Normative_Humean_Internalist" },
+          { "text": "BASED ON REASON", "terminalId": "T22_Normative_Kantian_Internalist" }
+        ]
+      },
+      "Q10": {
+        "text": "If obligation comes from outside, what gives it authority?",
+        "options": [
+          { "text": "DIVINE COMMAND", "terminalId": "T23_Normative_Theistic_Realist" },
+          { "text": "NATURAL LAW", "terminalId": "T24_Normative_Aristotelian_Thomist" },
+          { "text": "IRREDUCIBLE NORMATIVE FACTS", "terminalId": "T25_Normative_Non_Naturalist_Realist" }
+        ]
+      }
+    }
+  }
+  

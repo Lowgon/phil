@@ -1,0 +1,130 @@
+{
+  "id": "agential",
+  "title": "Agential Commitments",
+  "startNode": "Q1",
+  "nodes": {
+    "Q1": {
+      "question": "Do you ever act on purpose — that is, do you do things intentionally rather than just letting them happen?",
+      "options": [
+        { "label": "No, things just happen", "terminalId": "T1_Agential_Epiphenomenalist" },
+        { "label": "Yes, I do things intentionally", "next": "Q2" }
+      ]
+    },
+
+    "Q2": {
+      "question": "When you act, do you feel that you could have chosen to act differently, or that your actions were the only way things could have gone?",
+      "options": [
+        { "label": "No, I couldn’t have done otherwise", "next": "Q2b" },
+        { "label": "Yes, I could have done otherwise", "next": "Q3" },
+        { "label": "I'm not sure", "next": "Q2a" }
+      ]
+    },
+
+    "Q2a": {
+      "question": "When you think about your own actions, are you unsure whether you could have done otherwise because the very idea of ‘doing otherwise’ doesn’t make sense to you, or because you genuinely feel you might have been able to act differently but aren’t yet sure what it would really take for that to be true?",
+      "options": [
+        { "label": "The idea of 'doing otherwise' doesn’t make sense to me", "next": "Q2b" },
+        { "label": "I do feel like I could have acted differently — I’m just not sure why", "next": "Q3" }
+      ]
+    },
+
+    "Q2b": {
+      "question": "Given that it seems you couldn’t have done otherwise, where does your sense of acting intentionally come from?",
+      "options": [
+        { "label": "I can retroactively endorse or identify with my actions", "terminalId": "T2_Agential_Hierarchical_Compatibilist" },
+        { "label": "I feel a natural, uncoerced expression of my motives", "terminalId": "T3_Agential_Soft_Compatibilist" },
+        { "label": "My sense of agency is an illusion — everything is determined", "terminalId": "T4_Agential_Hard_Determinist" }
+      ]
+    },
+
+    "Q3": {
+      "question": "When you think about your actions, do you mean freedom in the everyday sense — free from outside pressure or control? Or do you mean freedom in a deeper sense, that you could have acted differently even if everything about the world, including your circumstances and brain state, were exactly the same? Or do both ideas seem important?",
+      "options": [
+        { "label": "I could have chosen differently even if everything were identical", "next": "Q4" },
+        { "label": "Freedom means absence of external pressure or constraint", "next": "Q5" },
+        { "label": "Both seem important", "next": "Q4" }
+      ]
+    },
+
+    "Q4": {
+      "question": "If some part of you can act independently of everything else that causes the world to be the way it is, what makes that possible?",
+      "options": [
+        { "label": "My mind or soul is a separate, immaterial thing", "terminalId": "T5_Agential_Substance_Dualist" },
+        { "label": "My conscious self directly causes my actions", "terminalId": "T6_Agential_Agent_Causal_Libertarian", "optionalBridge": "Q5" },
+        { "label": "Quantum-level randomness opens real possibilities", "terminalId": "T7_Agential_Indeterministic_Libertarian" },
+        { "label": "My actions emerge in ways not fully reducible to physical processes", "terminalId": "T8_Agential_Emergentist", "optionalBridge": "Q5" }
+      ]
+    },
+
+    "Q5": {
+      "question": "When you act, are your choices guided by reasons you recognize and care about, or do they mostly happen as automatic responses to what’s going on around you?",
+      "options": [
+        { "label": "Mostly automatic responses to what's happening around me", "terminalId": "T9_Agential_Behaviorist" },
+        { "label": "Guided by reasons I recognize and care about", "next": "Q6" }
+      ]
+    },
+
+    "Q6": {
+      "question": "When you think about why you acted, do you feel the real explanation is just how your brain and body respond to prior events, or do your choices reflect reasons and considerations that you recognize as yours? Or is it a mix of both?",
+      "options": [
+        { "label": "It’s just how my brain and body respond — reasons reduce to physical processes", "terminalId": "T10_Agential_Neurophysical_Reductionist" },
+        { "label": "My choices reflect reasons and considerations I recognize", "next": "Q7" },
+        { "label": "A mix of both", "next": "Q7" }
+      ]
+    },
+
+    "Q7": {
+      "question": "If your actions are guided by reasons, what gives those reasons their guiding force?",
+      "options": [
+        { "label": "They are compelling on their own, independent of anyone", "next": "Q8" },
+        { "label": "They are compelling only because I and others recognize them", "next": "Q8a" },
+        { "label": "They have no intrinsic authority; they work because they help achieve ends", "terminalId": "T11_Agential_Pragmatist_Reasons" }
+      ]
+    },
+
+    "Q8": {
+      "question": "For any reason you consider valid, does it apply everywhere and to everyone, or only in certain times, places, or situations?",
+      "options": [
+        { "label": "Applies everywhere and to everyone", "next": "Q9" },
+        { "label": "Depends on time, place, or situation", "next": "Q10" }
+      ]
+    },
+
+    "Q8a": {
+      "question": "If the force of reasons depends on being recognized, what makes that recognition real or meaningful?",
+      "options": [
+        { "label": "It comes from rational nature itself — something true for any rational being", "terminalId": "T12_Agential_Kantian_Constitutivist" },
+        { "label": "It arises from mutual acknowledgment among people", "terminalId": "T13_Agential_Hegelian_Recognition" }
+      ]
+    },
+
+    "Q9": {
+      "question": "Why do reasons have force over anyone at all?",
+      "options": [
+        { "label": "They reflect objective moral facts or natural law", "terminalId": "T14_Agential_Moral_Realist" },
+        { "label": "They follow from the universal structure of practical reason", "terminalId": "T15_Agential_Kantian_Rationalist" },
+        { "label": "They are built into the very nature of agency itself", "terminalId": "T16_Agential_Constitutive_Kantian" }
+      ]
+    },
+
+    "Q10": {
+      "question": "If the force of reasons isn’t universal, what shapes or limits what counts as a valid reason?",
+      "options": [
+        { "label": "My own desires and aims", "next": "Q11" },
+        { "label": "My community or culture", "terminalId": "T17_Agential_Cultural_Relativist" },
+        { "label": "My conceptual or linguistic framework", "terminalId": "T18_Agential_Wittgensteinian_Conventionalist" },
+        { "label": "The social practices and forms of life I inhabit", "terminalId": "T19_Agential_Pragmatist_Norms" }
+      ]
+    },
+
+    "Q11": {
+      "question": "If your reasons depend on your particular perspective, what gives them their force for you?",
+      "options": [
+        { "label": "They come from my desires or aims", "terminalId": "T20_Agential_Humean_Instrumentalist" },
+        { "label": "They come from my power or will to shape things", "terminalId": "T21_Agential_Nietzschean_Perspectivalist" },
+        { "label": "I create them through radical free choice", "terminalId": "T22_Agential_Existentialist" }
+      ]
+    }
+  }
+}
+  
