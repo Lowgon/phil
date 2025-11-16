@@ -289,9 +289,9 @@
       "description": "Carnap, Ayer — logical truths are analytic, based on meanings and conventions.",
       "tree": "Modal Commitments"
     },
-    "T6_Modal_Platonist": {
-      "label": "Platonist about Logic",
-      "description": "Frege, Gödel — logical forms are mind-independent facts.",
+    "T6_Modal_Mind_Independent_Grounding": {
+      "label": "Mind-Independent Grounding",
+      "description": "Logical truths exist independently of human minds or conventions, though not necessarily as abstract objects. Truths are objective features of reality rather than merely conceptual.",
       "tree": "Modal Commitments"
     },
     "T7_Modal_Kantian_Logic": {
