@@ -86,7 +86,7 @@
       "options": [
         { "label": "They have to be this way", "terminalId": "T1_Modal_Necessitarian" },
         { "label": "They could have been different", "next": "Q4" },
-        { "label": "They are regular but not strictly necessary", "terminalId": "T11_Modal_Epistemic_Reductionist" }
+        { "label": "They are regular but not strictly necessary", "terminalId": "T12_Modal_Humean_Laws" }
       ]
     },
 
