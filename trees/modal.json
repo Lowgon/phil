@@ -1,0 +1,175 @@
+{
+  "id": "modal",
+  "title": "Modal Commitments",
+  "startNode": "START",
+  "nodes": {
+    "START": {
+      "question": "Do you think things could have been different from how they are?",
+      "options": [
+        { "label": "No, it couldn’t have been different", "terminalId": "T1_Modal_Necessitarian" },
+        { "label": "Yes, it could have been different", "next": "Q2" },
+        { "label": "I’m not sure / the question is confusing", "next": "Q1a" }
+      ]
+    },
+
+    "Q1a": {
+      "question": "Some people hesitate when asked whether things could have been different. This hesitation usually reflects one of two worries: they might feel that possibility is just a feature of how we think — a product of our minds — or they might feel that possibility doesn’t really exist in the world at all.",
+      "options": [
+        { "label": "It’s just a feature of our minds", "next": "Q1b" },
+        { "label": "Possibility doesn’t really exist in the world", "terminalId": "T2_Modal_Eliminativist" }
+      ]
+    },
+
+    "Q1b": {
+      "question": "When you say possibility is mind-dependent, do you mean it comes from the specific concepts and ideas we use, or from the way human minds work in general?",
+      "options": [
+        { "label": "It comes from the concepts we use", "terminalId": "T3_Modal_Conceptual_Idealist" },
+        { "label": "It comes from the way human minds work", "terminalId": "T4_Modal_Transcendental_Idealist" }
+      ]
+    },
+
+    "Q2": {
+      "question": "When you say things could have been different, what do you imagine makes that possible? Is it that logic allows it, that our concepts allow it, that such alternatives could really exist out there, that the laws of nature permit them, or simply that you don’t know enough to rule them out?",
+      "options": [
+        { "label": "It just has to make sense logically", "next": "Q3" },
+        { "label": "It depends on how we think or the concepts we use", "next": "Q3b" },
+        { "label": "It could really exist out there", "next": "Q4" },
+        { "label": "It’s allowed by the laws of nature", "next": "Q5" },
+        { "label": "It’s just what I know or don’t know", "next": "Q2b" }
+      ]
+    },
+
+    "Q2b": {
+      "question": "When you say something is possible just because of what you know, do you think that’s the whole story — or is there something real out there that makes it possible?",
+      "options": [
+        { "label": "That’s all there is — it’s just what I know", "terminalId": "T11_Modal_Epistemic_Reductionist" },
+        { "label": "There’s something real out there that makes it possible", "next": "Q4" }
+      ]
+    },
+
+    "Q3": {
+      "question": "Is logical necessity based only on rules and meanings we use, or is there something deeper that makes logical truths the way they are?",
+      "options": [
+        { "label": "It’s just the rules and meanings we use", "terminalId": "T5_Modal_Conventionalist" },
+        { "label": "There’s something deeper", "next": "Q3a" }
+      ]
+    },
+
+    "Q3a": {
+      "question": "If logical truths have to be the way they are, what makes that so? Is it because there are mind-independent facts that determine them, because our thinking is necessarily structured a certain way, or because languages and grammars themselves impose these patterns?",
+      "options": [
+        { "label": "Mind-independent facts make logic necessary", "terminalId": "T6_Modal_Mind_Independent_Grounding" },
+        { "label": "It comes from the structure of human thought", "terminalId": "T7_Modal_Kantian_Logic" },
+        { "label": "It arises from grammar or linguistic rules", "terminalId": "T8_Modal_Wittgensteinian_Quietist" }
+      ]
+    },
+
+    "Q3b": {
+      "question": "If possibilities depend on how we think about things, is this because our conceptual framework fixes what’s possible, or because we can revise and engineer new possibilities by reshaping the way we think?",
+      "options": [
+        { "label": "Our conceptual framework fixes what’s possible", "terminalId": "T9_Modal_Conceptual_Relativist" },
+        { "label": "We can revise or engineer new conceptual possibilities", "terminalId": "T10_Modal_Conceptual_Engineer" }
+      ]
+    },
+
+    "Q4": {
+      "question": "When you imagine different ways things could be, do those possibilities exist in some real sense beyond your mind? Are they just mental representations? Or do they exist because things in the world have real capacities and potentials that make them possible?",
+      "options": [
+        { "label": "They exist out there in some real sense", "next": "Q6" },
+        { "label": "They’re just in my mind", "next": "Q7" },
+        { "label": "They come from what things can actually do", "next": "Q8" }
+      ]
+    },
+
+    "Q5": {
+      "question": "Do the laws of nature have to be the way they are, or could they have been different?",
+      "options": [
+        { "label": "They have to be this way", "terminalId": "T1_Modal_Necessitarian" },
+        { "label": "They could have been different", "next": "Q4" },
+        { "label": "They are regular but not strictly necessary", "terminalId": "T11_Modal_Epistemic_Reductionist" }
+      ]
+    },
+
+    "Q6": {
+      "question": "If possibilities exist beyond the mind, do they take the form of fully real worlds like ours, or are they abstract structures or patterns?",
+      "options": [
+        { "label": "They exist as real concrete worlds", "terminalId": "T12_Modal_Modal_Realist" },
+        { "label": "They exist as abstract structures", "next": "Q6a" }
+      ]
+    },
+
+    "Q6a": {
+      "question": "If these possibilities are abstract, what kind of abstract thing are they — perfect recipes for what’s possible, combinations of actual elements, fundamentally possible entities, or formal mathematical-like structures?",
+      "options": [
+        { "label": "Perfect recipes for possibilities", "terminalId": "T13_Modal_Linguistic_Ersatzist" },
+        { "label": "Combinations of actual elements", "terminalId": "T14_Modal_Combinatorial_Theorist" },
+        { "label": "Strange fundamentally possible entities", "terminalId": "T15_Modal_Abstract_Modal_Realist" },
+        { "label": "Formal or mathematical structures", "terminalId": "T16_Modal_Structural_Modal_Realist" }
+      ]
+    },
+
+    "Q7": {
+      "question": "If possibilities are just in your mind, what makes only some of them count as real possibilities? Do they need to be logically coherent, to reflect how things really are, to follow our conceptual rules, or are they just matters of convention or decision?",
+      "options": [
+        { "label": "They must be logically coherent", "next": "Q3" },
+        { "label": "They reflect how things really are", "next": "Q8" },
+        { "label": "They follow our conceptual or linguistic rules", "terminalId": "T9_Modal_Conceptual_Relativist" },
+        { "label": "They’re just conventions or decisions", "terminalId": "T17_Modal_Modal_Fictionalist" }
+      ]
+    },
+
+    "Q8": {
+      "question": "When you think about what makes something possible, does it come from what a thing can do on its own, from the ways it interacts with other things, or does it require some additional source beyond these?",
+      "options": [
+        { "label": "It comes from a thing’s own capacities", "terminalId": "T18_Modal_Intrinsic_Dispositionalist" },
+        { "label": "It comes from interactions among things", "terminalId": "T19_Modal_Relational_Dispositionalist" },
+        { "label": "It needs something else altogether", "next": "Q4" }
+      ]
+    },
+
+    "Q9": {
+      "question": "Could you have been significantly different (body, parents, life) and still be you?",
+      "options": [
+        { "label": "YES, WIDELY", "next": "Q10" },
+        { "label": "NO, ESSENCE CONSTRAINS", "next": "Q11" },
+        { "label": "UNCLEAR / VAGUE", "next": "Q9a" }
+      ]
+    },
+
+    "Q9a": {
+      "question": "Is this vagueness due to language or reality itself?",
+      "options": [
+        { "label": "LANGUAGE / SEMANTICS", "terminalId": "T20_Modal_Semantic_Anti_Essentialist" },
+        { "label": "REALITY / ONTOLOGY", "terminalId": "T21_Modal_Ontological_Anti_Essentialist" }
+      ]
+    },
+
+    "Q10": {
+      "question": "What makes a person the same across possibilities — continuity, origin, or bare identity?",
+      "options": [
+        { "label": "ORIGIN (same parents/body essential)", "terminalId": "T22_Modal_Origin_Essentialist" },
+        { "label": "CONTINUITY (psychological/physical)", "terminalId": "T23_Modal_Continuity_Theorist" },
+        { "label": "BARE IDENTITY (primitive thisness)", "terminalId": "T24_Modal_Haecceitist" }
+      ]
+    },
+
+    "Q11": {
+      "question": "Is your essence fixed by origin, intrinsic nature, or social/contextual relations?",
+      "options": [
+        { "label": "ORIGIN", "terminalId": "T25_Modal_Kripkean_Essentialist" },
+        { "label": "INTRINSIC NATURE", "terminalId": "T26_Modal_Aristotelian_Essentialist" },
+        { "label": "SOCIAL / CONTEXTUAL", "next": "Q11a" }
+      ]
+    },
+
+    "Q11a": {
+      "question": "Are social essences grounded in recognition, roles, or relational networks?",
+      "options": [
+        { "label": "RECOGNITION & ROLE", "terminalId": "T27_Modal_Social_Essentialist" },
+        { "label": "RELATIONAL NETWORKS", "terminalId": "T28_Modal_Relational_Essentialist" }
+      ]
+    }
+  }
+}
+
+  
