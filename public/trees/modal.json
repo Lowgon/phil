@@ -58,7 +58,7 @@
     "Q3a": {
       "question": "If logical truths have to be the way they are, what makes that so? Is it because there are mind-independent facts that determine them, because our thinking is necessarily structured a certain way, or because languages and grammars themselves impose these patterns?",
       "options": [
-        { "label": "Mind-independent facts make logic necessary", "terminalId": "T6_Modal_Platonist" },
+        { "label": "Mind-independent facts make logic necessary", "terminalId": "T6_Modal_Mind_Independent_Grounding" },
         { "label": "It comes from the structure of human thought", "terminalId": "T7_Modal_Kantian_Logic" },
         { "label": "It arises from grammar or linguistic rules", "terminalId": "T8_Modal_Wittgensteinian_Quietist" }
       ]
